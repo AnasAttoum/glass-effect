@@ -2,7 +2,7 @@ import Scene from "@/components/scene";
 
 export default function Home() {
   return (
-    <main className="h-dvh">
+    <main className="relative h-dvh">
       <Scene />
     </main>
   );
