@@ -3,7 +3,6 @@ import * as THREE from "three";
 import { MeshTransmissionMaterial, useGLTF } from "@react-three/drei";
 import { useThree } from "@react-three/fiber";
 import { GLTF } from "three/examples/jsm/Addons.js";
-import { useControls } from "leva";
 
 type GLTFResult = GLTF & {
   nodes: {
