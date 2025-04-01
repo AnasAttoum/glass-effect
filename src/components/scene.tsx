@@ -11,7 +11,7 @@ export default function Scene() {
       <p className="absolute inset-0 flex justify-center items-center text-center text-7xl sm:text-8xl lg:text-9xl font-extrabold font-dancing">Anas Attoum</p>
       <Canvas>
         <OrbitControls/>
-        <Environment preset="city" />
+        <Environment files="/hdr/warehouse-256.hdr" />
         <directionalLight intensity={3} position={[0, 3, 2]} />
         <Model />
       </Canvas>

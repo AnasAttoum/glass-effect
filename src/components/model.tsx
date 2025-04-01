@@ -45,9 +45,9 @@ export function Model() {
   });
 
   const materialProps = {
-    thickness: 0.2, // Lower thickness allows better visibility
+    thickness: 0.1, // Lower thickness allows better visibility
     roughness: 0.05, // Keep roughness low for a clearer effect
-    transmission: 0.98, // Close to fully transparent
+    transmission: 0.99, // Close to fully transparent
     ior: 1.1, // Reduce refraction for better background visibility
     chromaticAberration: 0, // No color distortion
     backside: true,
